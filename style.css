@@ -1,0 +1,61 @@
+body{
+    background:blue;
+}
+h1{
+    
+    color: black;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+.heading{
+    margin: auto;
+    height: 55px;
+    border-radius: 30px;
+    background:linear-gradient(to right,rgb(206, 241, 50),red,yellow,blue);
+    width: 500px;
+}
+.card{
+    margin:auto;
+    margin-top: 55px;
+    height: 600px;
+    width: 450px;
+    background: rgb(91, 7, 247);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+    box-shadow: 3px 3px 3px 3px rgb(122, 71, 170);
+}
+input {
+    height: 40px;
+    width: 400px;
+    background: transparent;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    color: rgba(131, 125, 125, 0.6);
+    border-bottom: 1px solid rgba(228, 223, 223, 0.4);
+
+}
+
+label {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 100px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 30px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 1px 1px 1px 1px rgb(122, 71, 170);
+}
+
+button:hover {
+    color: rgb(245, 10, 10);
+}
